@@ -3,9 +3,9 @@ pipeline {
 
     tools {
         maven 'my-maven'
+    }
 
     stages {
-
         stage('Checkout') {
             steps {
                 echo "Fetching source code..."
